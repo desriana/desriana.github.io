@@ -1,0 +1,124 @@
+/* start body */
+body {
+    color: brown;
+    font-family : 'Franklin Gothic Medium', Arial, Helvetica ;
+    font-size : 16px;
+    line-height : 1,5;
+    margin: 0;
+    padding : 0;
+    background-color: bisque;
+}
+/* end body */
+
+/* start debug */
+.bg-blue {
+    background-color: plum;
+}
+.bg-blueviolet{
+    background-color: blueviolet;
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width:90%;
+
+}
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: blueviolet;
+    border-radius : 4px;
+    box-shadow: 0in;
+}
+
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: brown;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding : 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+.menu-primer a:hover {
+    background-color: palevioletred;
+    color : blue;
+    text-decoration : none;
+}
+
+.menu-primer .active {
+    background-color: none;
+    color : white;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+    color: blue;
+    text-decoration : none;
+}
+/* end anchor / hyperlink */
+
+/* start backround teks */
+.text-pink {
+    color: brown;
+    background-color: rgb(232, 245, 58);
+    text-decoration-style: unset;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* end backround teks */
+
+/* start main */
+.main-home-one {
+    float: left;
+    width: 50%;
+    
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+/* end main */
+
+/* start Logo */
+.main-logo-one {
+    float: left;
+    width: 50%;
+    
+}
+
+.main-logo-two {
+    float: right;
+    width: 50%;
+}
+
+.main-logo-three {
+    text-align: center;
+    float: center;
+    width: 100%;
+}
+
+/* end logo */
+
